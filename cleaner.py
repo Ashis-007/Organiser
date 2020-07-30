@@ -4,14 +4,16 @@ import shutil
 
 file_types = {
     "pdf": ["pdf"],
-    "Image": ["jpg", "jpeg", "png", "gif", "svg"],
-    "Video": ["mp4", "mkv"],
-    "Audio": ["mp3"],
-    "Document": ["doc","docx"],
+    "Image": ["jpg", "jpeg", "png", "gif", "svg", "ico", "tif", "tiff", "bmp", "psd"],
+    "Video": ["mp4", "mkv", "3gp", "avi", "m4v", "mpg", "mpeg", "wmv"],
+    "Audio": ["mp3", "wav", "wma",],
+    "Document": ["doc","docx", "odt", "rtf"],
     "Spreadsheet": ["xls", "xlxs"],
     "ppt": ["ppt", "pptx"],
     "Text": ["txt"],
-    "zip": ["zip"]
+    "zip": ["zip", "7z", "rar"],
+    "fonts": ["ttf", "otf", "fnt", "fon"],
+    "programming" : ["js", "cpp", "java", "py", "c", "cs", "css", "html", "php"]
 }
 
 path_name = repr(sys.argv[1]) 
